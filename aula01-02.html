@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa!</title>
+</head>
+
+<body>
+    
+    <script>
+        document.write("A minha idade é 30 anos." );
+        document.write("<br>");
+        document.write("A minha idade é " + (2023-1989) + " anos.");
+        document.write("A idade de pedro é " + (2023- 1988) + " anos.");
+        document.write("<br>");
+        document.write("A média da minha idade e de pedro somadas é " + (34+35)/2);
+        document.write("<br>");
+        document.write("Nossa idade somada é " + (34+35)/2);
+        document.write("<br>");
+
+        document.write("<hr>");
+
+        /* Aplicando variaveis */
+        
+        var ano = 2022;
+        document.write("<h2> Aplicando variáveis - Aula 2 </h2>");
+        document.write("Flávio tem " + (ano - 1989) + " anos");
+        document.write("<br>");
+        document.write("Pedro tem " + (ano - 1988) + " anos");
+        document.write("<br>");
+        document.write("Adalton tem " + (ano - 1988) + " anos");
+        document.write("<br>");
+
+        var media = ( 34 + 38 + 38)/3;
+        document.write("A média das idades é " + Math.round(media) + ".");
+        document.write("<br>");
+
+
+        var idadeFlavio = 38;
+        var idadePedro = 39;
+        var idadeAdalton = 38;
+        var resultado = (idadeFlavio + idadePedro + idadeAdalton)/3;
+        document.write ( "A idade média dos 3 é igual à " + Math.round(resultado));
+        document.write("<hr>");
+        document.write("<h2> Exercícios - Aula 2 </h2>");
+        document.write("<p> Álcool ou gasolina?</P>");
+        document.write("<br>");
+        
+        var tanque = 40;
+        var caminhoComGasolina = 480;
+        var caminhoComAlcool = 300;
+        var consumoDeGasolina = caminhoComGasolina / tanque ;
+        var consumoDeAlcool = caminhoComAlcool / tanque  ;
+
+        document.write("O Consumo de Gaolina com um tanque de " + tanque + " litros é igual à: " + consumoDeGasolina);
+        document.write("<br>");
+        document.write("O Consumo de Alcool com um tanque de " + tanque + " litros é igual à: " + consumoDeAlcool);      
+
+    </script>
+
+</body>
+
+</html>
