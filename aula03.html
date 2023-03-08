@@ -10,6 +10,41 @@
 
     <script>
 
+       /*  Usando variáveis */ 
+        /* var ano = 2023
+         var pulaLinha = "<br> <br> <br>"
+    
+
+        document.write("Flávio tem " + ( ano - 1989) + " anos");
+        document.write(pulaLinha);
+        document.write("Pedro tem " + (ano - 1988) + " anos");
+        document.write(pulaLinha); */ 
+        
+        /* Melhorando o uso da variável */
+
+        function pulaLinha(){
+
+            document.write("<br><br>")
+        }
+
+        function mostra(frase){
+            document.write(frase);
+            pulaLinha();
+        }
+
+        document.write("Flávio tem 34 anos");
+        pulaLinha();
+        document.write("Pedro tem 35 anos");
+        pulaLinha();
+
+        /* Criando a função document.write */
+
+       
+        mostra ("Flávio tem 34 anos");
+        mostra ("Verdade, Flávio tem 34 ");
+        mostra ("Pedro tem 25 anos");
+        mostra ("Mentira, Pedro tem 35 anos");
+
 
     </script>
     
